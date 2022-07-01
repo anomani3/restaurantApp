@@ -1,0 +1,52 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "KFC Restaurant",
+      "address": "Noida Delhi",
+      "email": "kfc@test.com"
+    },
+    {
+      "id": 2,
+      "name": "Butler Restaurant",
+      "address": "ShaheenBagh",
+      "email": "butler@test.com"
+    },
+    {
+      "name": "KFC1 Restaurant",
+      "address": "Delhi",
+      "email": "kfc1@test.com",
+      "id": 3
+    },
+    {
+      "name": "KFC1 Restaurant",
+      "address": "Delhi",
+      "email": "kfc1@test.com",
+      "id": 4
+    },
+    {
+      "name": "Kfc4",
+      "email": "kfc@kfc.com",
+      "address": "Kfc4 America",
+      "id": 5
+    },
+    {
+      "name": "Kfc4",
+      "email": "kfc@kfc.com",
+      "address": "Kfc4 America",
+      "id": 6
+    },
+    {
+      "name": "subway",
+      "email": "subway@subway.com",
+      "address": "toranto",
+      "id": 8
+    },
+    {
+      "name": "Abul Hasn Restaurant Kabab",
+      "email": "hasan@123.com",
+      "address": "Kabab Market Purnea",
+      "id": 10
+    }
+  ]
+}
