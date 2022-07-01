@@ -1,24 +1,10 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Restaurant</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li><a class="nav-link" routerLink="add">Add Restaurant</a></li>
-      <li><a class="nav-link" routerLink="delete">Delete Restaurant</a></li>
-      <li><a class="nav-link" routerLink="update">Update Restaurant</a></li>
-      <li><a class="nav-link" routerLink="register">Register</a></li>
-      <li><a class="nav-link" routerLink="login">Login</a></li>
-      <li><a class="nav-link" routerLink="list">List Restaurant</a></li>
-    </ul>
+<mat-toolbar color="primary" class="navbar">
+  <div class="brand">Advertise</div>
+  <div >
+    <button mat-flat-button color="primary" routerLink="/"><mat-icon>home</mat-icon>Home</button>
+    <button mat-flat-button color="primary" routerLink="/all"><mat-icon>assignment</mat-icon>Advertisements</button>
+    <button mat-flat-button color="primary"  routerLink="/form"><mat-icon>add_circle</mat-icon>New!</button>
   </div>
-</nav>
+</mat-toolbar>
+<router-outlet ></router-outlet>
 
-
-
-<h1>Restaurant App!!</h1>
-
-<div class="container">
-  <router-outlet></router-outlet>
-</div>

@@ -1,34 +1,24 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { AddRestroComponent } from './add-restro/add-restro.component';
-import { UpdateRestroComponent } from './update-restro/update-restro.component';
-import { ListRestroComponent } from './list-restro/list-restro.component';
-import { LoginComponent } from './login/login.component';
-import { RegisterComponent } from './register/register.component';
-import { DeleteComponent } from './delete/delete.component';
-
-import {HttpClientModule } from '@angular/common/http'
-import { ReactiveFormsModule } from '@angular/forms';
-import { AdvertisementFormComponentComponent } from './advertisement-form-component/advertisement-form-component.component';
-
+import {routedComponents} from './app-routing.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MaterialComponents} from './material/material.module';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import { AdvertisementTableComponentComponent } from './AdvertisementTableComponent/AdvertisementTableComponent.component';
 @NgModule({
-  declarations: [
+  declarations: [			
     AppComponent,
-    AddRestroComponent,
-    UpdateRestroComponent,
-    ListRestroComponent,
-    LoginComponent,
-    RegisterComponent,
-    DeleteComponent,
-    AdvertisementFormComponentComponent
-  ],
+    routedComponents,
+      AdvertisementTableComponentComponent
+   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule,
+    BrowserAnimationsModule,
+    MaterialComponents,
+    FormsModule,
     ReactiveFormsModule
   ],
   providers: [],
